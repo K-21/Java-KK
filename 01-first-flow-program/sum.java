@@ -1,3 +1,6 @@
+/*
+Keep taking numbers as inputs till the user enters ‘x’, after that print sum of all.
+*/
 import java.util.Scanner;
 public class sum {
     public static void main(String[] args) {
