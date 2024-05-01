@@ -20,23 +20,7 @@ public class Armstrong {
       System.out.println("Not an Armstrong number");
     }
   
-    // To check for any number given by user
-    int a,arm=0,no,temp1;
-    Scanner sc=new Scanner(System.in);
-    sc.close();
-    System.out.println("Enter a number");
-    no=sc.nextInt();
-    temp1=no;
-    for( ;no!=0;no/=10 )
-    {
-      a=no%10;
-      arm=arm+(a*a*a);
-    }
-   // System.out.println(arm);
-    if(arm==temp1)
-    System.out.println(temp1+" is a armstrong number ");
-    else
-    System.out.println(temp1+" is not a armstrong number ");
+    
 
 
 // to check for all numbers from 100 to 1000 which are Armstrong numbers
