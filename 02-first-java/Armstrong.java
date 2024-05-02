@@ -1,3 +1,6 @@
+/*
+    To find Armstrong Number between two given number.
+*/
 import java.util.*;
 public class Armstrong {
   public static void main(String[] args) {
