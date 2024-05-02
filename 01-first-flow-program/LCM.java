@@ -1,3 +1,6 @@
+/*
+Take 2 numbers as inputs and find their LCM.
+*/
 import java.util.Scanner;
 public class LCM {
     public static void main(String[] args) {
